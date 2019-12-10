@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TauntStringWrapper_Example' do
+  pod 'TauntStringWrapper', :path => '../'
+
+  target 'TauntStringWrapper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
