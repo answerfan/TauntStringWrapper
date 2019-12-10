@@ -1,0 +1,6 @@
+framework module TauntStringWrapper {
+  umbrella header "TauntStringWrapper-umbrella.h"
+
+  export *
+  module * { export * }
+}

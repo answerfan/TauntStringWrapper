@@ -1,0 +1,6 @@
+framework module Pods_TauntStringWrapper_Example {
+  umbrella header "Pods-TauntStringWrapper_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

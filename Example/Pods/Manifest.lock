@@ -1,0 +1,16 @@
+PODS:
+  - TauntStringWrapper (0.1.0)
+
+DEPENDENCIES:
+  - TauntStringWrapper (from `../`)
+
+EXTERNAL SOURCES:
+  TauntStringWrapper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TauntStringWrapper: ee9ecba3acd40311e8aa84d25f440b5fb61eb6c2
+
+PODFILE CHECKSUM: 3edd87cf0efa4ddde52a39a4bda50f8c56ca03b0
+
+COCOAPODS: 1.8.4

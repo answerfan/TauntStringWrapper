@@ -1,0 +1,6 @@
+framework module Pods_TauntStringWrapper_Tests {
+  umbrella header "Pods-TauntStringWrapper_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
