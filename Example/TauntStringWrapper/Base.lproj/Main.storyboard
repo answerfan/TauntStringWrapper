@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,11 +18,51 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="56x-K5-qs6">
+                                <rect key="frame" x="32" y="239" width="311" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="yqY-Bw-p67"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Для шарика" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ez7-cu-DAz">
+                                <rect key="frame" x="140" y="110" width="95.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="R53-Uz-Ljs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bsD-Cp-dRi">
+                                <rect key="frame" x="32" y="170" width="311" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ItG-Sd-4pW"/>
+                                </constraints>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ez7-cu-DAz" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="110" id="4kF-jq-iet"/>
+                            <constraint firstItem="bsD-Cp-dRi" firstAttribute="top" secondItem="ez7-cu-DAz" secondAttribute="bottom" constant="39" id="B0b-57-hdu"/>
+                            <constraint firstItem="ez7-cu-DAz" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="HWU-Wj-Akc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bsD-Cp-dRi" secondAttribute="trailing" constant="16" id="Oz7-nF-RLY"/>
+                            <constraint firstItem="bsD-Cp-dRi" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Q4i-B8-J1u"/>
+                            <constraint firstItem="56x-K5-qs6" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="16" id="aOu-va-R0W"/>
+                            <constraint firstItem="bsD-Cp-dRi" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="16" id="fiS-z1-JnC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="56x-K5-qs6" secondAttribute="trailing" constant="16" id="lWJ-d6-Zfv"/>
+                            <constraint firstItem="56x-K5-qs6" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="239" id="z9W-bt-ktZ"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textField" destination="56x-K5-qs6" id="Vom-HF-dg9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="138" y="133"/>
         </scene>
     </scenes>
 </document>

@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		10AF46A1BE54B6482DD3FD759C5C93DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2CE6CE0A57727EA1481ED95413F63C04 /* TauntStringWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EEBCCDF85042B40AFCCF8CEAA1F630 /* TauntStringWrapper.swift */; };
 		32FBE5A272E2037C69193756C53446B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		40E967659004BEB3968FEE12482B4980 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		45B092C9F27C8DC6BE2C21E583E70BE3 /* Pods-TauntStringWrapper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 409EA8A26C0069A8A65272467620F0CD /* Pods-TauntStringWrapper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		560B6FE13601C647CD898889804A8764 /* Pods-TauntStringWrapper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D328EF3E416EE1ADF3CED80AE19CCEF /* Pods-TauntStringWrapper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		71B5342E5A746AB8B351F26CAAD02539 /* Pods-TauntStringWrapper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAA20C5D756CA61BE8595127C7ED28E /* Pods-TauntStringWrapper_Example-dummy.m */; };
-		7826C16D4C999FEBA3A095C0FBB07E87 /* TauntStringWrapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83A099D4772F06893853B6CC67F20C1D /* TauntStringWrapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF5251CB23A0127C00BC4CE6 /* TauntStringWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5251CA23A0127C00BC4CE6 /* TauntStringWrapper.swift */; };
+		7826C16D4C999FEBA3A095C0FBB07E87 /* TauntStringWrapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7F00404846D73ED46AF17FD77C9A6AD /* TauntStringWrapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		972CB0992C14C0FB8A6B71A65DD32E6A /* TauntStringWrapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B42D736A19B781A0F41D8FB079724DE9 /* TauntStringWrapper-dummy.m */; };
 		E41319030B13FBA439A19F956662461C /* Pods-TauntStringWrapper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BD5003CEF79B2D6EBFBDBC29F80F40 /* Pods-TauntStringWrapper_Tests-dummy.m */; };
-		F489B0A553061FF1B9FB0D0790A94A8B /* TauntStringWrapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F571E71AD808E315708892DE88CFADCA /* TauntStringWrapper-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,37 +37,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		057BAEC580B33B700A6E017569B27EFC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		099F98EBBEE0D88B828111B2B9E17428 /* Pods-TauntStringWrapper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TauntStringWrapper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0CEFF1ED19B400D1E7C70060953C8390 /* TauntStringWrapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TauntStringWrapper.modulemap; sourceTree = "<group>"; };
-		22DC09813004EE37107CEEBFBEF70CD9 /* TauntStringWrapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TauntStringWrapper-prefix.pch"; sourceTree = "<group>"; };
+		1B96E4FAC3B1650AB98F58F478F58F53 /* TauntStringWrapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TauntStringWrapper.xcconfig; sourceTree = "<group>"; };
 		23C0F00D615196CC4C24E422AB971A96 /* Pods-TauntStringWrapper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TauntStringWrapper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		24BD9886FEBC57297192080860638A5E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		27D6A9A28814F18541028561A3BF62E7 /* TauntStringWrapper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TauntStringWrapper-Info.plist"; sourceTree = "<group>"; };
+		2B132158F1A8708123203BE9C64A9782 /* TauntStringWrapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TauntStringWrapper.modulemap; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		409EA8A26C0069A8A65272467620F0CD /* Pods-TauntStringWrapper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TauntStringWrapper_Tests-umbrella.h"; sourceTree = "<group>"; };
 		54560E692F6AA9A5E2104BEBFF70E4A7 /* Pods-TauntStringWrapper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TauntStringWrapper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5D328EF3E416EE1ADF3CED80AE19CCEF /* Pods-TauntStringWrapper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TauntStringWrapper_Example-umbrella.h"; sourceTree = "<group>"; };
 		6403200D6F648A5A20F7C272AF29E714 /* Pods-TauntStringWrapper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TauntStringWrapper_Example.modulemap"; sourceTree = "<group>"; };
-		643A205811E4D8229B5B41811186994D /* TauntStringWrapper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TauntStringWrapper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		659AC2975E98EF9305D5B12AAA570368 /* Pods_TauntStringWrapper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TauntStringWrapper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EFE97FC50797CE71013776D993CBE23 /* TauntStringWrapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TauntStringWrapper.xcconfig; sourceTree = "<group>"; };
-		83A099D4772F06893853B6CC67F20C1D /* TauntStringWrapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TauntStringWrapper-umbrella.h"; sourceTree = "<group>"; };
-		86E9601375B967E214640CE9ADB30C17 /* TauntStringWrapper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TauntStringWrapper-Info.plist"; sourceTree = "<group>"; };
+		659AC2975E98EF9305D5B12AAA570368 /* Pods_TauntStringWrapper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TauntStringWrapper_Example.framework; path = "Pods-TauntStringWrapper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79EEBCCDF85042B40AFCCF8CEAA1F630 /* TauntStringWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TauntStringWrapper.swift; path = TauntStringWrapper/Classes/TauntStringWrapper.swift; sourceTree = "<group>"; };
+		7C3D5BA74B8081BE3B53D6FD172F95DF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		89C7840CB2AD105417A9DFB7656616EB /* Pods-TauntStringWrapper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TauntStringWrapper_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A46B264CA41B6D799DC33B86843B6EF3 /* Pods-TauntStringWrapper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TauntStringWrapper_Tests.modulemap"; sourceTree = "<group>"; };
 		AED8F854357E9A240CAC9D0882448F0C /* Pods-TauntStringWrapper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TauntStringWrapper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B133A9195BE6D98E01B8BC9A1469BA6D /* Pods-TauntStringWrapper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TauntStringWrapper_Tests-Info.plist"; sourceTree = "<group>"; };
+		B42D736A19B781A0F41D8FB079724DE9 /* TauntStringWrapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TauntStringWrapper-dummy.m"; sourceTree = "<group>"; };
 		B6479417654E132E31E338347EFB7EA3 /* Pods-TauntStringWrapper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TauntStringWrapper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B7BD5003CEF79B2D6EBFBDBC29F80F40 /* Pods-TauntStringWrapper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TauntStringWrapper_Tests-dummy.m"; sourceTree = "<group>"; };
 		BC079ACB1058405EFFC34C3BEA114919 /* Pods-TauntStringWrapper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TauntStringWrapper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BC4A8EF7EB6B54B1C373A4840C37C3CE /* Pods_TauntStringWrapper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TauntStringWrapper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC4A8EF7EB6B54B1C373A4840C37C3CE /* Pods_TauntStringWrapper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TauntStringWrapper_Tests.framework; path = "Pods-TauntStringWrapper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F91DD2A222679EAA3BB981A611CD6F /* TauntStringWrapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TauntStringWrapper-prefix.pch"; sourceTree = "<group>"; };
 		CC514AD8D955EBE38032D3D7DBB41418 /* Pods-TauntStringWrapper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TauntStringWrapper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D4BF44A9096AEF4308500DBFE7D68188 /* Pods-TauntStringWrapper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TauntStringWrapper_Example-Info.plist"; sourceTree = "<group>"; };
-		D9F24128AD09356378435E4ABBB7D1EB /* TauntStringWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TauntStringWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF5251CA23A0127C00BC4CE6 /* TauntStringWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TauntStringWrapper.swift; path = TauntStringWrapper/Classes/TauntStringWrapper.swift; sourceTree = "<group>"; };
+		D74FC927B36B94675B0E3AE76DAE91A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D9F24128AD09356378435E4ABBB7D1EB /* TauntStringWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TauntStringWrapper.framework; path = TauntStringWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA236784D5EB4A241CD0BE717402E1A4 /* TauntStringWrapper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TauntStringWrapper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E7F00404846D73ED46AF17FD77C9A6AD /* TauntStringWrapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TauntStringWrapper-umbrella.h"; sourceTree = "<group>"; };
 		E88E72DEF4E7BFBF79AF4D7423070DBE /* Pods-TauntStringWrapper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TauntStringWrapper_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F571E71AD808E315708892DE88CFADCA /* TauntStringWrapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TauntStringWrapper-dummy.m"; sourceTree = "<group>"; };
 		FEAA20C5D756CA61BE8595127C7ED28E /* Pods-TauntStringWrapper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TauntStringWrapper_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +99,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BA7351522FB2BEDF9D96EA72B24FD19 /* TauntStringWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				79EEBCCDF85042B40AFCCF8CEAA1F630 /* TauntStringWrapper.swift */,
+				468AFCF71BC397326BEE692DAD9EED87 /* Pod */,
+				47B3E1570D2A4C459E21815A40B6EF2C /* Support Files */,
+			);
+			name = TauntStringWrapper;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		1824528CDAB0FFE13B96515B342AF3D8 /* Pods-TauntStringWrapper_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,15 +136,25 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		39EEC8E4081D394A257EA83296FA5CF4 /* Support Files */ = {
+		468AFCF71BC397326BEE692DAD9EED87 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0CEFF1ED19B400D1E7C70060953C8390 /* TauntStringWrapper.modulemap */,
-				6EFE97FC50797CE71013776D993CBE23 /* TauntStringWrapper.xcconfig */,
-				F571E71AD808E315708892DE88CFADCA /* TauntStringWrapper-dummy.m */,
-				86E9601375B967E214640CE9ADB30C17 /* TauntStringWrapper-Info.plist */,
-				22DC09813004EE37107CEEBFBEF70CD9 /* TauntStringWrapper-prefix.pch */,
-				83A099D4772F06893853B6CC67F20C1D /* TauntStringWrapper-umbrella.h */,
+				7C3D5BA74B8081BE3B53D6FD172F95DF /* LICENSE */,
+				D74FC927B36B94675B0E3AE76DAE91A0 /* README.md */,
+				DA236784D5EB4A241CD0BE717402E1A4 /* TauntStringWrapper.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		47B3E1570D2A4C459E21815A40B6EF2C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B132158F1A8708123203BE9C64A9782 /* TauntStringWrapper.modulemap */,
+				1B96E4FAC3B1650AB98F58F478F58F53 /* TauntStringWrapper.xcconfig */,
+				B42D736A19B781A0F41D8FB079724DE9 /* TauntStringWrapper-dummy.m */,
+				27D6A9A28814F18541028561A3BF62E7 /* TauntStringWrapper-Info.plist */,
+				C4F91DD2A222679EAA3BB981A611CD6F /* TauntStringWrapper-prefix.pch */,
+				E7F00404846D73ED46AF17FD77C9A6AD /* TauntStringWrapper-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/TauntStringWrapper";
@@ -192,31 +213,10 @@
 			path = "Target Support Files/Pods-TauntStringWrapper_Tests";
 			sourceTree = "<group>";
 		};
-		E16F41BCB65C64FF256CB8D4C7BA9FBE /* TauntStringWrapper */ = {
-			isa = PBXGroup;
-			children = (
-				DF5251CA23A0127C00BC4CE6 /* TauntStringWrapper.swift */,
-				EA441E5BF44EE07C3469BF7A308BC4E7 /* Pod */,
-				39EEC8E4081D394A257EA83296FA5CF4 /* Support Files */,
-			);
-			name = TauntStringWrapper;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		EA441E5BF44EE07C3469BF7A308BC4E7 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				057BAEC580B33B700A6E017569B27EFC /* LICENSE */,
-				24BD9886FEBC57297192080860638A5E /* README.md */,
-				643A205811E4D8229B5B41811186994D /* TauntStringWrapper.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		F7F9F93C95EC6DEC2E0555776003A89B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E16F41BCB65C64FF256CB8D4C7BA9FBE /* TauntStringWrapper */,
+				0BA7351522FB2BEDF9D96EA72B24FD19 /* TauntStringWrapper */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -256,7 +256,7 @@
 			buildConfigurationList = BA0545F0B40332EDE1A86E155A69A0C8 /* Build configuration list for PBXNativeTarget "TauntStringWrapper" */;
 			buildPhases = (
 				35C75318FD99766FD2746ADFFAA06122 /* Headers */,
-				BCC8D8D0F6A87DECF0860E6002A54FD7 /* Sources */,
+				1EAFC80F3BD3F9F014C03311DEE42216 /* Sources */,
 				4B16CEB343FD8B2E5AB4793527386445 /* Frameworks */,
 				B4E4DC0893E23625F44250EABAFF71D2 /* Resources */,
 			);
@@ -361,20 +361,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1EAFC80F3BD3F9F014C03311DEE42216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972CB0992C14C0FB8A6B71A65DD32E6A /* TauntStringWrapper-dummy.m in Sources */,
+				2CE6CE0A57727EA1481ED95413F63C04 /* TauntStringWrapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		84A423AEC550AF30FA9586F8CAFE0E5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				71B5342E5A746AB8B351F26CAAD02539 /* Pods-TauntStringWrapper_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BCC8D8D0F6A87DECF0860E6002A54FD7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DF5251CB23A0127C00BC4CE6 /* TauntStringWrapper.swift in Sources */,
-				F489B0A553061FF1B9FB0D0790A94A8B /* TauntStringWrapper-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,7 +507,7 @@
 		};
 		70F154A58CFD8EF84F1D02275E34CE8E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EFE97FC50797CE71013776D993CBE23 /* TauntStringWrapper.xcconfig */;
+			baseConfigurationReference = 1B96E4FAC3B1650AB98F58F478F58F53 /* TauntStringWrapper.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -590,7 +590,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -695,7 +696,7 @@
 		};
 		F95FEF321FDD606DA500340C1F119871 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EFE97FC50797CE71013776D993CBE23 /* TauntStringWrapper.xcconfig */;
+			baseConfigurationReference = 1B96E4FAC3B1650AB98F58F478F58F53 /* TauntStringWrapper.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

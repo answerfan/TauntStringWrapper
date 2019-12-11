@@ -1,5 +1,7 @@
 use_frameworks!
 
+source 'https://github.com/answerfan/AnswerfanSpecs.git'
+
 target 'TauntStringWrapper_Example' do
   pod 'TauntStringWrapper', :path => '../'
 

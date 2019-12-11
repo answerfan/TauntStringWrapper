@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TauntStringWrapper: ee9ecba3acd40311e8aa84d25f440b5fb61eb6c2
+  TauntStringWrapper: 42d594168eec095137c1bf82140dbfcee7586025
 
-PODFILE CHECKSUM: 3edd87cf0efa4ddde52a39a4bda50f8c56ca03b0
+PODFILE CHECKSUM: e51895bcc1cfb4427b65dcc6a91344f17f44691b
 
 COCOAPODS: 1.8.4
