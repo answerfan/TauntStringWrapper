@@ -65,7 +65,7 @@
 		CC514AD8D955EBE38032D3D7DBB41418 /* Pods-TauntStringWrapper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TauntStringWrapper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D4BF44A9096AEF4308500DBFE7D68188 /* Pods-TauntStringWrapper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TauntStringWrapper_Example-Info.plist"; sourceTree = "<group>"; };
 		D9F24128AD09356378435E4ABBB7D1EB /* TauntStringWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TauntStringWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF5251CA23A0127C00BC4CE6 /* TauntStringWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TauntStringWrapper.swift; sourceTree = "<group>"; };
+		DF5251CA23A0127C00BC4CE6 /* TauntStringWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TauntStringWrapper.swift; path = TauntStringWrapper/Classes/TauntStringWrapper.swift; sourceTree = "<group>"; };
 		E88E72DEF4E7BFBF79AF4D7423070DBE /* Pods-TauntStringWrapper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TauntStringWrapper_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F571E71AD808E315708892DE88CFADCA /* TauntStringWrapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TauntStringWrapper-dummy.m"; sourceTree = "<group>"; };
 		FEAA20C5D756CA61BE8595127C7ED28E /* Pods-TauntStringWrapper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TauntStringWrapper_Example-dummy.m"; sourceTree = "<group>"; };
@@ -195,9 +195,9 @@
 		E16F41BCB65C64FF256CB8D4C7BA9FBE /* TauntStringWrapper */ = {
 			isa = PBXGroup;
 			children = (
+				DF5251CA23A0127C00BC4CE6 /* TauntStringWrapper.swift */,
 				EA441E5BF44EE07C3469BF7A308BC4E7 /* Pod */,
 				39EEC8E4081D394A257EA83296FA5CF4 /* Support Files */,
-				DF5251CA23A0127C00BC4CE6 /* TauntStringWrapper.swift */,
 			);
 			name = TauntStringWrapper;
 			path = ../..;
