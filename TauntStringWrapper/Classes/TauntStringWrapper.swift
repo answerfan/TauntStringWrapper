@@ -20,7 +20,7 @@ public struct TauntStringWrapper<Value> {
         get { value }
         set {
             value = newValue
-            print("\(newValue), ты, пидор!")
+            print("\(newValue), ты пидор!")
         }
     }
 }
